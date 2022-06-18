@@ -35,61 +35,6 @@ class AddContact extends React.Component {
         console.log(this.state)
     };
 
-    // render() {
-    //     return (
-    //         <div class="container">
-    //             <h2>Add Contact</h2>
-    //             <form onSubmit={this.add}>
-    //                 <div>
-    //                     <label>Full Name: </label>
-    //                     <input 
-    //                         type="text" 
-    //                         name="FullName" 
-    //                         placeholder="Full Name"
-    //                         value={this.state.name}
-    //                         onChange={(e) => this.setState({name: e.target.value})}
-    //                     />
-    //                 </div>
-    //                 <div>
-    //                     <label>Email: </label>
-    //                     <input
-    //                         type="text"
-    //                         name="email"
-    //                         placeholder="Email"
-    //                         value={this.state.email}
-    //                         onChange={(e) => this.setState({ email: e.target.value })}
-    //                     />
-    //                 </div>
-    //                 <div>
-    //                     <label>Phone Number: </label>
-    //                     <input
-    //                         type="number"
-    //                         name="phoneNumber"
-    //                         placeholder="Phone Number"
-    //                         value={this.state.phone}
-    //                         onChange={(e) => this.setState({ phone: e.target.value })}
-    //                     />
-    //                 </div>
-    //                 <div>
-    //                     <label>Street Address: </label>
-    //                     <input
-    //                         type="text"
-    //                         name="address"
-    //                         placeholder="address"
-    //                         value={this.state.address}
-    //                         onChange={(e) => this.setState({ address: e.target.value })}
-    //                     />
-    //                 </div>
-    //                 <div>
-    //                     <label>State </label>
-    //                 </div>
-    //                 <button>Add</button>
-    //             </form>
-    //         </div>
-
-    //     );
-    // }
-
     render() {
         return (
             <div class="container">
